@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class BoardManager : MonoBehaviour
 {
+    private int rows = 5;
+    private int cols = 5;
+    private float padding = 1;
+
     // Start is called before the first frame update
     void Start()
     {
